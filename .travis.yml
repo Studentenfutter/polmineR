@@ -26,6 +26,3 @@ notifications:
   email:
   on_success: change
   on_failure: change
-
-after_success:
-  - Rscript -e 'library(covr); codecov(token = "36cf23e7-4231-4329-b680-f052fece17dc")'
